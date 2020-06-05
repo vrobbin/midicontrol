@@ -19,8 +19,8 @@ import breeze_resources
 class FirstMidiWindow(QMainWindow):
     def __init__(self):
         super(FirstMidiWindow, self).__init__()
-        self.setGeometry(300, 200, 580, 300)
-        self.setFixedSize(580, 300)
+        self.setGeometry(300, 200, 590, 300)
+        self.setFixedSize(590, 300)
         self.setWindowTitle('MIDIator')
         self.initUI()
         self.worker = UdpAg()
@@ -49,10 +49,10 @@ class FirstMidiWindow(QMainWindow):
 
         self.label2 = QtWidgets.QLabel(self)
         self.label2.setText("Set local ip address:")
-        self.label2.setGeometry(50, 90, 140, 20)
+        self.label2.setGeometry(50, 85, 140, 20)
 
         self.lineEdit = QtWidgets.QLineEdit(self)
-        self.lineEdit.setGeometry(30, 110, 161, 21)
+        self.lineEdit.setGeometry(30, 110, 161, 25)
         self.lineEdit.setAlignment(QtCore.Qt.AlignCenter)
 
         self.dial = QtWidgets.QDial(self)
