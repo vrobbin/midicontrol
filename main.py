@@ -11,7 +11,7 @@ from PyQt5.QtGui import QPixmap
 
 from udp_accelgyro import UdpAg, UdpAgPhone
 
-sys.path.append('/Users/robbin/PycharmProjects/midi2/BreezeStyleSheets-master')
+sys.path.append('./BreezeStyleSheets-master')
 
 import breeze_resources
 
