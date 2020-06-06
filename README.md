@@ -14,15 +14,13 @@ To run the main script directly:
 > 3. Install dependencies into the virtual environment using *pip install -r requirements.txt*
 > 4. cd into the main folder (the folder with all *.py* files) before running any scripts/functions.
 
-### Running the prebuild .app file (mac only)
+### Running the prebuild version
 
-Following the link given below you can download "MIDIator.app" which should run just by downloading and running the executable.
-
-link* 
+Soon, executables will be available for download directly from here for Linux, Windows and Mac platforms. These require no installation whatsoever.
 
 ## Micropython
 
-For Micropython some scripts are given to get started on the UDP connection and a sample code uses the MPU-6050 to send accelerometer and gyroscope data from the microcontroller. 
+For Micropython some scripts are given to get started on the UDP connection and a sample code reads raw data from the MPU-6050 to send accelerometer and gyroscope data from the microcontroller to the UDP socket. 
 
 
 #### Add custom midi-device:
@@ -60,3 +58,5 @@ def udp_micro_accel(self):
 ## Acknowledgements
 
 The dark breeze theme is directly copied from Alexhuszagh his [BreezeStyleSheets](https://github.com/Alexhuszagh/BreezeStyleSheets "BreezeStyleSheets") which is based on [QDarkStylesheet](https://github.com/ColinDuquesnoy/QDarkStyleSheet "QDarkStylesheet")
+
+For micropython and the MPU6050 inertial sensor the [I2C library](https://github.com/adamjezek98/MPU6050-ESP8266-MicroPython "i2c") by adamjezek98 was used and is included
